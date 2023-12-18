@@ -1,0 +1,30 @@
+.meme{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.meme img{
+    height: 440px;
+    object-fit: cover;
+}
+
+.button{
+    padding: 8px 20px;
+    border: none;
+    margin: 24px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: rebeccapurple;
+    background-color: #dcade6;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.button:hover{
+    padding: 10px 35px;
+    letter-spacing: 3px;
+}
+
+.meme-author{
+    margin: 8px;
+}
